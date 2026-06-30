@@ -94,14 +94,10 @@ body {
   justify-content: center;
   gap: 10px;
   margin-bottom: 18px;
-}
-.logo-circle {
-  width: 44px; height: 44px;
-  background: var(--red);
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 0 22px var(--red-glow);
-  flex-shrink: 0;
+}.logo-circle img {
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
 }
 .logo-circle svg { width:22px; height:22px; fill:#fff; }
 .logo-name {
@@ -742,11 +738,9 @@ body {
   <section class="hero" id="hero">
 
     <!-- ===== AIRTEL LOGO (fully intact) ===== -->
-    <div class="logo-row">
-      <!-- Logo image placeholder: paste your logo URL -->
-      <img src="https://i.postimg.cc/L58rYGtC/Airtel-Logo-PNG-High-Quality-Image.png" alt="Airtel Nigeria" class="logo-img" onerror="this.style.display='none'">
-      <div class="logo-name">Airtel <em>Nigeria</em></div>
-    </div>
+    <div class="logo-circle">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Airtel_logo.svg" alt="Airtel Logo">
+</div>
     <!-- ===== END AIRTEL LOGO ===== -->
 
     <div class="badge-verified">
